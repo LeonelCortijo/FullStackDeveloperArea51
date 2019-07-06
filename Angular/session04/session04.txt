@@ -1,0 +1,11 @@
+Observables
+
+1. Observer
+2. Observable
+3. Subscribe (Subscripcion)
+4. Subscriber (data, error, complete)
+
+RxJS
+RxJS/operators
+
+Observable y observer están en un mismo método
