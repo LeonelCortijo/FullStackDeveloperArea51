@@ -16,3 +16,13 @@ Observable y observer están en un mismo método
 
 Rutas
 @Angular/router
+
+
+Route: {}   (interfaces)
+Routes: Route[] (interfaces)
+RouterModule
+
+Se necesita:
+1. Lista de Rutas
+2. Punto de inserción
+    <router-outlet></router-outlet>
