@@ -9,3 +9,10 @@ RxJS
 RxJS/operators
 
 Observable y observer están en un mismo método
+
+1. Diagramas
+2. Reactivex.io
+3. LearnRxjs.io
+
+Rutas
+@Angular/router
