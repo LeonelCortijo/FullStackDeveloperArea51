@@ -1,0 +1,10 @@
+<app-login *ngIf="ver.login"
+(onLogin)="change($event)"
+(onOlvido)="change($event)"
+></app-login>
+<app-registro *ngIf="ver.registro"
+(onRegistro)="change($event)"
+></app-registro>
+<app-olvido *ngIf="ver.olvido"
+(onLogin)="change($event)"
+></app-olvido>

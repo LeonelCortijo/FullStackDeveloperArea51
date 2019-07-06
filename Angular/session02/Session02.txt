@@ -1,0 +1,11 @@
+Estructurales
+*ngFor
+
+Paréntesis: salida de un evento
+		No se asigna directamente
+		Evaluar lo que está entre ""
+		Ejecutar y no tratarlo como una cadena
+Corchetes: entran al componente
+		Enviar información al componente
+
+Event Emitter

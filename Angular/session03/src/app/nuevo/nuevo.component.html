@@ -1,0 +1,12 @@
+<h3>Nuevo</h3>
+<form>
+  <input type="text" placeholder="Título" [(ngModel)]="novela.titulo" name="titulo">
+  <br>
+  <input type="text" placeholder="Descripción" [(ngModel)]="novela.descripcion" name="descripcion">
+  <br>
+  <input type="text" placeholder="Autor" [(ngModel)]="novela.autor" name="autor">
+  <br>
+  <input type="text" placeholder="Año" [(ngModel)]="novela.anno" name="anno">
+  <br>
+  <button (click)="grabar()">Grabar</button>
+</form>

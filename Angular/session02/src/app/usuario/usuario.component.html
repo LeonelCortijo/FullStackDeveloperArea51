@@ -1,0 +1,28 @@
+<span>
+  <b>Como variables independientes: </b>
+  <br> {{userName}} {{name}}
+</span>
+<br>
+<span>
+  <b>Como un Json(Object) y con alias: </b>
+  <br> {{user.username}} {{user.name}}
+</span>
+<br>
+<span>
+  <b>Indice:</b>
+  <br> {{indice}}
+</span>
+<br>
+<button (click)="eliminar()">Eliminar</button>
+<br>
+<button (click)="mostrar=!mostrar">Más info</button>
+<br>
+<p *ngIf="mostrar; else mostrarMensaje">
+  {{user.email}}
+</p>
+<ng-template #mostrarMensaje>
+  <p>
+    Clic en más info
+  </p>
+</ng-template>
+<br>

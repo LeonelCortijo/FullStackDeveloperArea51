@@ -1,0 +1,97 @@
+Angular CLI (Command Line Interface)
+Angular.io
+Cli.angular.io
+Material.angular.io
+Bazel.angular.io
+
+Adquirir permisos de administrador con el comando SUDO
+sudo npm i -g @angular/cli
+ng version
+
+ng new "nombre proyecto"
+node_modules
+npm i
+npm install
+
+
+package.json
+	dependencias del proyecto
+	dependencias desarrollo
+package-lock.json
+
+E2E
+	Protactor
+	Cypress
+	CodeDef
+	Cucumber
+Src
+	app
+	assets
+	environments
+		Enviroment.ts
+		Enviroment.prod.ts
+
+
+Angular.json
+Karma.conf.js
+tsConfig.json
+tslint.json
+
+polyfills.ts para configurar el navegador que se utilizará
+	En IE a partir de la versión 9
+
+JIT
+|Just in time
+(95%)|
+|Cliente|
+Los archivos se compilan en el cliente
+
+AOT
+|Ahead of time (95% errores)|
+|Cliente (5% errores)|
+Primero compila y luego lo envía al cliente
+
+main.ts ==> app.module.ts ==> app.component.ts
+
+Decorador agrega funcionalidad
+- Comienza con @
+- Proviene de @Angular/core
+- Clases, métodos, propiedades
+
+@Component () Si se pinta subrayado, puede ser por:
+- No sabe dónde está
+- Error porque falta parámetros
+- Lint
+
+CSS
+P{}: Etiqueta (Angular lo usa)
+.TextoGrande{}: Class (Angular lo usa)
+#Nombre{}: ID(No lo usa)
+[usuario]{}: Atributo (Angular lo usa)
+
+Formas de insertar un componente
+1. Insertar selector (En este caso usamos este tipo)
+2. Programación
+3. Rutas
+4. Entry Components
+
+Inicializar server
+ng serve
+Levanta un servidor node
+ng serve -o
+Levanta un servidor node y abre el navegador
+
+No se debe usar:
+<span innerHTML='{{nombre}}'>
+
+</span>
+
+Librería flex layout
+
+Evento listener en Angular se usan paréntesis ()
+Todo lo que está en paréntesis son de salida
+Evento Input: 'tiene memoria', guarda todo lo que el usuario ha digitado
+
+Cuando es de entrada se usa Corchetes []
+Ejemplo: [value]="nombre"
+Busca una propiedad llamada nombre y le asigna el valor

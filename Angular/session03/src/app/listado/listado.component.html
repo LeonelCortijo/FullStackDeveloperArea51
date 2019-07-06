@@ -1,0 +1,47 @@
+<!--
+<h3>CLASS</h3>
+<table>
+  <tr>
+    <td>Titulo</td>
+    <td>Descripcion</td>
+    <td>Autor</td>
+    <td>Año</td>
+  </tr>
+  <tr *ngFor="let novela of novelas">
+    <td>{{novela.titulo}}</td>
+    <td>{{novela.intro()}}</td>
+    <td>{{novela.autor}}</td>
+    <td>{{novela.anno}}</td>
+  </tr>
+</table>
+<h3>INTERFACE</h3>
+<table>
+  <tr>
+    <td>Titulo</td>
+    <td>Descripcion</td>
+    <td>Autor</td>
+    <td>Año</td>
+  </tr>
+  <tr *ngFor="let novela of inovelas">
+    <td>{{novela.titulo}}</td>
+    <td>{{intro(novela.descripcion)}}</td>
+    <td>{{novela.autor}}</td>
+    <td>{{novela.anno}}</td>
+  </tr>
+</table>
+-->
+<h3>SERVICE</h3>
+<table>
+  <tr>
+    <td>Titulo</td>
+    <td>Descripcion</td>
+    <td>Autor</td>
+    <td>Año</td>
+  </tr>
+  <tr *ngFor="let novela of snovelas">
+    <td>{{novela.titulo}}</td>
+    <td>{{intro(novela.descripcion)}}</td>
+    <td>{{novela.autor}}</td>
+    <td>{{novela.anno}}</td>
+  </tr>
+</table>
